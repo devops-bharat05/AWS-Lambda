@@ -97,4 +97,3 @@ def lambda_handler(event, context):
 2. **Create Lambda Function**: Deploy this code in a Lambda function.
 3. **Set Up SNS Topic**: Create an SNS topic and subscribe the user (via email, SMS, etc.) to receive notifications.
 
-Let me know if you need help with specific parts, such as setting up the Lambda function or configuring permissions!
