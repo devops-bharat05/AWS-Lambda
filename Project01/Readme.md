@@ -1,6 +1,3 @@
-Here's a detailed `README.md` file to showcase the problem statement and explain the implementation. You can customize it further based on your project's needs.
-
-```markdown
 # AWS Lambda Resource Monitoring with Cost Notifications
 
 This project implements an AWS Lambda function using Python and Boto3 that monitors EC2 instances and sends notifications if any instance has been running for more than 15 days. The function also calculates the cost of those instances for the last 15 days and includes this information in the notification.
