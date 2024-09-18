@@ -12,6 +12,7 @@
      1. Open the bucket you created.
      2. Click **Upload** and add files.
      3. You can use old files or temporarily adjust your system date to make files appear older than 30 days (although not recommended for production environments).
+   
 ![Alt text](./images/S3-creaation.png)
 
 ### 2. **Lambda IAM Role**
@@ -21,6 +22,7 @@
      3. Under **Use case**, select **Lambda**, and click **Next**.
      4. Attach the policy **AmazonS3FullAccess** (for this assignment; restrict this in real-world scenarios).
      5. Name the role (e.g., `LambdaS3CleanupRole`) and click **Create role**.
+     
 ![Alt text](./images/LambdaS3CleanupRole.png)
 
 ### 3. **Lambda Function**
