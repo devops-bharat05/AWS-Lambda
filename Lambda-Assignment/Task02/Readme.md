@@ -1,6 +1,6 @@
 # Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
 ## Objective: To gain experience with AWS Lambda and Boto3 by creating a Lambda function that will automatically clean up old files in an S3 bucket.
-###Task: Automate the deletion of files older than 30 days in a specific S3 bucket.
+### Task: Automate the deletion of files older than 30 days in a specific S3 bucket.
 
 ### 1. **S3 Setup**
    - **Create an S3 bucket:**
