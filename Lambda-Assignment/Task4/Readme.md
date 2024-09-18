@@ -1,5 +1,5 @@
 ## Assignment 4: Automatic EBS Snapshot and Cleanup Using AWS Lambda and Boto3
-### Objective: To automate the backup process for your EBS volumes and ensure that backups older than a specified retention period are cleaned up to save costs. Automate the creation of snapshots for specified EBS volumes and clean up snapshots older than 30 days.
+#### Objective: To automate the backup process for your EBS volumes and ensure that backups older than a specified retention period are cleaned up to save costs. Automate the creation of snapshots for specified EBS volumes and clean up snapshots older than 30 days.
 
 
 ### Steps:
