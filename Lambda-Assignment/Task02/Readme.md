@@ -12,6 +12,7 @@
      1. Open the bucket you created.
      2. Click **Upload** and add files.
      3. You can use old files or temporarily adjust your system date to make files appear older than 30 days (although not recommended for production environments).
+![Alt text](./images/S3-creaation.png)
 
 ### 2. **Lambda IAM Role**
    - **Create a new role for Lambda:**
@@ -81,4 +82,3 @@ def lambda_handler(event, context):
      1. Go back to the **S3 dashboard** and check the bucket.
      2. Confirm that only files **newer than 30 days** remain.
 
-This should help you complete your assignment efficiently. Let me know if you need further assistance!
