@@ -111,4 +111,3 @@ def lambda_handler(event, context):
   - `availability_zone`: The availability zone where the new volume will be created.
   - `ami_id`, `key_name`, `security_group_ids`, `subnet_id`: Update these with the appropriate values for your environment.
 
-This Lambda function will automate the process of restoring an EC2 instance from the latest snapshot. Let me know if you need any further customization or guidance!
