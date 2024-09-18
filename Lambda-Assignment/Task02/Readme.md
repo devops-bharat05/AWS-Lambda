@@ -21,6 +21,7 @@
      3. Under **Use case**, select **Lambda**, and click **Next**.
      4. Attach the policy **AmazonS3FullAccess** (for this assignment; restrict this in real-world scenarios).
      5. Name the role (e.g., `LambdaS3CleanupRole`) and click **Create role**.
+![Alt text](./images/LambdaS3CleanupRole.png)
 
 ### 3. **Lambda Function**
    - **Create the Lambda function:**
@@ -28,6 +29,8 @@
      2. Click **Create function**, choose **Author from scratch**, and name the function (e.g., `S3CleanupFunction`).
      3. Select **Python 3.x** as the runtime.
      4. Under **Permissions**, choose **Use an existing role** and select the role created earlier (`LambdaS3CleanupRole`).
+
+![Alt text](./images/Bharat-S3CleanupFunction.png)
 
    - **Write the Lambda function code:**
      Use the following code to clean up files older than 30 days:
@@ -71,6 +74,7 @@ def lambda_handler(event, context):
         'body': json.dumps('S3 Cleanup complete')
     }
 ```
+![Alt text](./images/LambdaCode.png)
 
 ### 4. **Manual Invocation**
    - After saving the function, **test the function manually**:
@@ -81,4 +85,5 @@ def lambda_handler(event, context):
    - **Verify the cleanup:**
      1. Go back to the **S3 dashboard** and check the bucket.
      2. Confirm that only files **newer than 30 days** remain.
+![Alt text](./images/AfterLambdaCodeExecution.png)
 
