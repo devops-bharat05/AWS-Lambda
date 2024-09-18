@@ -87,5 +87,6 @@ def lambda_handler(event, context):
    - **Verify the cleanup:**
      1. Go back to the **S3 dashboard** and check the bucket.
      2. Confirm that only files **newer than 30 days** remain.
+     
 ![Alt text](./images/AfterLambdaCodeExecution.png)
 
