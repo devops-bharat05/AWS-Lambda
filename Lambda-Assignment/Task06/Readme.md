@@ -48,7 +48,7 @@
      from datetime import datetime, timedelta
 
      # Initialize boto3 clients
-     cloudwatch = boto3.client('cloudwatch', region_name='us-east-1')
+     cloudwatch = boto3.client('cloudwatch', region_name='us-west-2')
      sns = boto3.client('sns')
 
      # Set your threshold and SNS topic ARN
@@ -119,4 +119,3 @@
    - **Receive Email Alerts:**
      If your billing exceeds the set threshold (e.g., $50), you should receive an email alert from SNS.
 
-By following these steps, your AWS billing will be monitored daily, and you will receive notifications if it exceeds the threshold.
