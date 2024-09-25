@@ -38,7 +38,7 @@ def lambda_handler(event, context):
     # Initialize EC2 client
     ec2 = boto3.client('ec2', region_name='us-west-2')  # Replace 'your-region' with your AWS region
     volume_id = 'vol-0faaf073e338794ac'  				        # Replace with your EBS volume ID
-    retention_days = 30  								                # Number of days to keep snapshots
+    retention_days = 30  						        # Number of days to keep snapshots
     
     # Step 1: Create a snapshot for the specified volume
     snapshot = ec2.create_snapshot(
