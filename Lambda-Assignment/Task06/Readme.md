@@ -1,4 +1,9 @@
 ## Assignment 6: Monitor and Alert High AWS Billing Using AWS Lambda, Boto3, and SNS
+- **Objective:**
+      Create an automated alerting mechanism for when your AWS billing exceeds a certain threshold.
+- **Task:**
+     Set up a Lambda function to check your AWS billing amount daily, and if it exceeds a specified threshold, send an alert via SNS..
+
 
 ### 1. **SNS Setup:**
    - **Create an SNS Topic:**
